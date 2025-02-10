@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="duc" method="post">
+        <table>
+            <td><label for="name">Họ và tên</label></td>
+          <td><input id="name" name="name" type="text" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">ngày sinh</label></td>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="sex">Giới tính</label></td>
+          <td>
+            <input value="Nam" id="Nam" name="sex" type="radio" />
+            <label for="Nam">Nam</label>
+            <input value="Nữ" id="Nữ" name="sex" type="radio" />
+            <label for="Nữ">Nữ</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tel">Số điện thoại: </label></td>
+          <td><input id="tel" type="tel" pattern="0[0-9]{9}" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email: </label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="namework">Tên công ty</label></td>
+          <td><input id="namework" name="namework" type="text"></td>
+        </tr>
+        <tr>
+          <td><label for="role">vị trí trong công ty</label></td>
+          <td>
+            <select name="role" id="role">
+              <option value="Giám đốc điều hành(CEO)">Giám đốc điều hành (CEO)</option>
+            </select>
+          </td>
+          <tr>
+            <td><label for="scale">quy mô công ty</label></td>
+          <td>
+            <select name="scale" id="scale">
+              <option value="Doanh nghiệp nhỏ">Doanh nghiệp nhỏ</option>
+            </select>
+          </td>
+          </tr>
+          <tr>
+            <td><label for="rolework">nghề nghiệp trong công ty</label></td>
+          <td><input id="rolework" name="rolework" type="text"></td>
+          </tr>
+          <tr>
+            <td><label for="clb">lý do tham gia câu lạc bộ</label></td>
+            <td><textarea name="clb" id="clb"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="leader">kinh nhiệm lãnh đạo</label></td>
+            <td><textarea name="leader" id="leader"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="goal"></label>mục tiêu tham gia câu lạc bộ</td>
+          <td><textarea name="goal" id="goal"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="will">chương trình sự kiến muốn tham gia</label></td>
+            <td>
+              <input value="network" id="network" name="will" type="checkbox" /><label for="network"
+                >network</label
+              >
+              <input value="shopwork" id="shopwork" name="will" type="checkbox" /><label for="shopwork"
+                >shopwork</label
+              >
+              <input value="hội thảo" id="ht" name="will" type="checkbox" /><label for="htt"
+                >hội thảo</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><label for="new">Đăng kí nhận bản tin</label><div> <input value="đăng kí hội viên" type="submit"></div></td>
+          <td>
+            <input  id="new" name="new" type="checkbox" /><label for="new"
+              >có</label
+            >
+            
+          </td>
+          </tr>
+        
+        </table>
+    </form>
+</body>
+</html>
