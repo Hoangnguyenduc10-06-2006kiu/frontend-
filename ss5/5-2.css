@@ -1,0 +1,9 @@
+body{
+    background: black;
+}
+
+h1,h2{
+    color: greenyellow;
+    text-decoration: underline dotted red;
+}
+

@@ -1,0 +1,13 @@
+
+h1,table{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+th{
+    background-color: aqua;
+    color: white;
+}
+.a{
+    background-color: antiquewhite;
+}
