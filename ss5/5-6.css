@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .aa {
+    color: rgb(161, 66, 82);
+  }
+  .bb {
+    text-align: center;
+    border: 5px solid green;
+    padding: 20px;
+  }
+  .cc {
+    margin-top: 20px;
+    background-color: rgb(136, 136, 124);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+  }
+  .cc> p {
+    font-weight: 800;
+  }
+  .code {
+    background-color: white;
+    padding: 8px;
+    border-left: 5px solid rgb(99, 145, 99);
+  }
+  .code_red {
+    color: red;
+    margin-left: 20px;
+  }
+  .code_blue {
+    color: blue;
+  }
+  .buton {
+    margin-top: 10px;
+  }
+  button {
+    padding: 15px;
+    background-color: rgb(11, 68, 36);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
