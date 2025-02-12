@@ -1,0 +1,40 @@
+
+.portflio {
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 3, 3);
+  padding-bottom: 20px ;
+}
+
+.HPC {
+  float: right;
+  margin: 10px;
+}
+.TSBS{
+    color: aliceblue;
+}
+img{
+    border-radius: 200px;
+}
+table{
+    
+    background-color: rgb(112, 116, 119);
+    padding-right: 1300px;
+}
+.proj button{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding:10px 110px 10px 110px ;
+    margin-top: 20px;
+}
+button{
+margin: 100px;
+}
+.link{
+  margin-top: 20px;
+  background-color: rgb(112, 109, 109);
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 10px;
+}
