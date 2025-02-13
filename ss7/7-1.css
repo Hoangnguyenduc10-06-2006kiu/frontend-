@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button1 {
+  background-color: rgb(179, 47, 47) ;
+  color: aliceblue;
+  padding: 20px 50px;
+  border-radius: 10%;
+  margin-left:5%;
+}
+.button2{
+    background-color: rgb(179, 47, 47) ;
+    color: aliceblue;
+    padding: 20px 50px;
+    border-radius: 10%;
+    margin-left: 2%;
+}
+p{
+    font-size: 210%;
+}
+h1{
+    color: rgb(21, 21, 138);
+}
