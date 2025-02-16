@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+  text-align: center;
+  border: 00px;
+}
+.text {
+  width: 300px;
+  text-align: left;
+
+
+}
+.hr{
+    opacity: 1;
+}
+.button{
+    width: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: firebrick;
+    border-color: firebrick;
+}
+h2{
+    margin: 10px 0px 10px 0px;
+}
+h1{
+    margin-left: 50px;
+    border-bottom: 5px solid rgb(182, 78, 18);
+    width: 310px;
+}
+.td1{
+    border: none;
+}

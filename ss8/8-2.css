@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.email{
+    float: right;
+}
+#email{
+    height:25px;
+}
+
+.nameform{
+    color: white;
+}
+#name{
+    height:25px;
+}
+.mesage textarea {
+    width: 370px;
+    height: 100px;
+    background-color: rgb(59, 54, 90);
+}
+   
+.mesage{
+    color: white;
+    margin-top: 10px;
+
+}
+body{
+    width: 370px;
+    background-color: rgb(59, 54, 90);
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    background-color: rgb(59, 54, 90);
+    border: 1px solid;
+    border-color: rgb(100, 87, 87) ;
+}
+.button{
+    padding: 10px;
+    border-radius: 1px;
+    border: none;
+    margin-top: 10px;
+}

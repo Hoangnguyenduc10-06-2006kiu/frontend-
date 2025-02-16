@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  margin-top: 30px;
+  padding: 10px 10px;
+}
+.title {
+  margin-top: 20px;
+}
+.text1 {
+  border-right: 1px;
+  border-top: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+}
+.conten {
+  width: 400px;
+  text-align: left;
+  margin-top: 30px;
+}
+.hr {
+  opacity: 0.2;
+}
+.buton{
+ border: 3px solid;
+}
