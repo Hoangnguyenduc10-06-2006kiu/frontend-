@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+gap: 1%;
+}
+.flex-smail{
+    width:39%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.big{
+    background-color: darkslategray;
+    color: azure;
+    width: 60%;
+    height: 50vh;
+}
+.smail{
+    background-color: darkslategray;
+    color: azure;
+    width:39%;
+   
+   
+}
+
+.flex-box2{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+gap: 1%;
+}
+.flex-smail2{
+    width:39%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.big2{
+    background-color: darkslategray;
+    color: azure;
+    width: 60%;
+    height: 50vh;
+}
+.smail2{
+    background-color: darkslategray;
+    color: azure;
+    width:39%;
+}
