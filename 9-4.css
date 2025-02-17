@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.header{
+    margin: 5px;
+    width: 100%;
+    height: calc(100vh - 90vh);
+    color: aliceblue;
+    background-color: blue;
+}
+.sidebar{
+    margin: 5px;
+    width: 32%;
+    height: calc(100vh - 30vh);
+    background-color: green;
+    color: aliceblue;
+}
+.content{
+    margin: 5px;
+    width: 66%;
+    height: calc(100vh - 30vh);
+    background-color: red;
+    color: aliceblue;
+}
+.footer{
+    margin: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100%;
+    height: calc(100vh - 87vh);
+}
