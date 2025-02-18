@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+img {
+  height: 15%;
+  width: 50%;
+}
+.avata img {
+  height: 5%;
+  width: 5%;
+  border-radius: 50%;
+}
+.button {
+  position: relative;
+  bottom: 210px;
+  left: 38%;
+  color: rgb(28, 150, 20);
+  border: 1px solid;
+  width: 11%;
+  line-height: 11%;
+}
+.avata {
+  display: flex;
+  align-items: center;
+}
+
+.avata p {
+  margin: 10px;
+}
+.text {
+  width: 50%;
+}
+.content {
+  color: grey;
+}
+.date {
+  color: grey;
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.content .football {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(138, 223, 223);
+  text-align: center;
+ line-height: 100px;
+}
+.pic {
+  width: 25%;
+
+}
+

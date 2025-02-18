@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.header{
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+margin: 10px;
+}
+.container{
+    display: flex;
+
+}
+.container .text{
+    margin: 120px;
+    width: 50%;
+}
+.container img{
+    border-radius: 50%;
+    margin-top: 110px;
+}
+.container button {
+    background-color: red;
+    margin-top: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+.container p{
+    margin-top: 30px;
+}
