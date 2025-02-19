@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+}
+.header {
+  background-color: red;
+  color: aliceblue;
+  text-align: center;
+  height: calc(30vh - 5px);
+  width: 100vw;
+  margin: 5px;
+}
+.mid{
+    display: flex;
+}
+.mid .sidebar1 {
+    text-align: center;
+  background-color: green;
+  color: aliceblue;
+  margin: 5px;
+  height: calc(100vh/3 - 5px);
+  width: calc(100vw/3 - 5px) ;
+}
+.mid .text {
+    text-align: center;
+  background-color: rgb(194, 197, 21);
+  color: aliceblue;
+  margin: 5px;
+  height: calc(100vh/3 - 5px);
+  width: calc(200vw/3 - 5px) ;
+}
+.mid .sidebar2 {
+    text-align: center;
+  background-color: rgb(207, 18, 166);
+  color: aliceblue;
+  margin: 5px;
+  height: calc(100vh/3 - 5px);
+  width: calc(100vw/3 - 5px) ;
+}
+
+.footer {
+    text-align: center;
+  margin: 5px;
+  background-color: rgb(59, 15, 179);
+  color: aliceblue;
+  height: calc(30vh - 5px);
+  width: 100vw;
+}
+@media(max-width:1024px){
+    .header {
+        text-align: center;
+        background-color: red;
+        color: aliceblue;
+        text-align: center;
+        height: calc(20vh - 5px);
+        width: 100vw;
+        margin: 5px;
+      }
+      .mid{
+          display: block;
+      }
+      .mid .sidebar1 {
+        text-align: center;
+        background-color: green;
+        color: aliceblue;
+        margin: 5px;
+        height: calc(10vh - 5px);
+        width: 100vw;
+      }
+      .mid .text {
+        text-align: center;
+        background-color: rgb(194, 197, 21);
+        color: aliceblue;
+        margin: 5px;
+        height: calc(60vh - 5px);
+        width: 100vw;
+      }
+      .mid .sidebar2 {
+        text-align: center;
+        background-color: rgb(207, 18, 166);
+        color: aliceblue;
+        margin: 5px;
+        height: calc(10vh - 5px);
+        width: 100vw;
+      }
+      
+      .footer {
+        text-align: center;
+        margin: 5px;
+        background-color: rgb(59, 15, 179);
+        color: aliceblue;
+        height: calc(20vh - 5px);
+        width: 100vw;
+      }
+}
