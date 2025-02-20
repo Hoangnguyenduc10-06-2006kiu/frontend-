@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  select {
+    background-color: rgb(190, 97, 62) !important;
+    color: azure;
+  }
