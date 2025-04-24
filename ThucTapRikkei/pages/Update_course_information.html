@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/reset.css" />
+    <link rel="stylesheet" href="../CSS/base.css" />
+    <link rel="stylesheet" href="../CSS/Update_course_information.css" />
+    <title>Update course information</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="list-header">
+          <p style="display: flex; align-items: center; gap: 12px">
+            <img src="../assets/icon/home-icon.png" alt="" /> Danh sách khóa học
+          </p>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <p style="color: #932f08">Thông tin khóa học</p>
+        </div>
+        <div class="head-update">
+          <p>Cập nhật thông tin khóa học</p>
+          <div class="btn-update">
+            <button class="btn-cancel">Hủy</button>
+            <button id="btn-review">
+              <img src="../assets/icon/review.png" alt="" /> Xem thử giao diện
+            </button>
+            <button class="btn-save">Lưu cập nhật</button>
+          </div>
+        </div>
+        <div class="diven"></div>
+      </div>
+      <div class="main">
+        <div class="sidebar">
+          <a class="active" href="">Thông tin chung</a>
+          <div class="block-link">
+            <a href="">Chương trình học </a>
+            <div>5</div>
+          </div>
+          <div class="block-link">
+            <a href="">FAQ </a>
+            <div>3</div>
+          </div>
+          <div class="block-link">
+            <a href="">Học viên </a>
+            <div>25</div>
+          </div>
+        </div>
+        <div class="main-content">
+          <p class="title">Thông tin chung</p>
+          <img src="../assets/images/image detal.png" alt="" />
+
+          <div class="block-info-name">
+            <label for="">Tên khóa học</label>
+            <input type="text" />
+          </div>
+          <div class="block-info-name">
+            <label for="">Đối tượng học</label>
+            <input type="text" />
+          </div>
+
+          <div class="block-info">
+            <div class="info-son">
+              <label for="">Ngành nghề</label>
+              <select class="select-info" name="" id="">
+                <option value="">Công nghệ thông tin</option>
+              </select>
+            </div>
+            <div class="info-son">
+              <label for="">Trung tâm</label>
+              <select class="select-info" name="" id="">
+                <option value="">Rikkei Academy</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="info-describe">
+            <label for="">Mô tả khóa học</label>
+            <input type="text" />
+          </div>
+
+          <div id="box-skill">
+            <label for="content-skill">Các kĩ năng cần học</label>
+            <input id="content-skill" placeholder="HTML cơ bản" type="text" />
+            <input id="content-skill" placeholder="Sử dụng công cụ Figma" type="text" />
+            <button id="add-skill-course">+ Thêm kĩ năng</button>
+          </div>
+
+          <div id="box-price">
+            <label for="price-course">Mức giá</label>
+            <input
+              id="price-course"
+              placeholder="Nhập mức tiền khóa học"
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

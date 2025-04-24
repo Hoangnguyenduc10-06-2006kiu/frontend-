@@ -1,0 +1,187 @@
+.logo-university {
+  width: 143px;
+  height: 32px;
+}
+.body-container {
+  display: flex;
+}
+.body-left {
+  width: fit-content;
+  height: calc(100vh - 36px);
+  padding: 24px 0 24px 24px;
+  border-right: 2px solid #e4e7ec;
+}
+.list-link {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #344054;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nav {
+  width: 279px;
+  height: 910px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body-top-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.body-name-email {
+  width: 235px;
+  height: 40px;
+  border-top: 1px solid #e4e7ec;
+}
+.name-out {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 10px;
+}
+.icon-search {
+  position: relative;
+  left: 34px;
+}
+.iput-search {
+  padding-left: 34px;
+  width: 231px;
+  height: 44px;
+  border-radius: 8px;
+  border: 2px solid #cac2c2;
+}
+.icon {
+  color: #344054;
+  width: 24px;
+  height: 24px;
+}
+#icon-account {
+  color: #344054;
+}
+.body-bottom-nav{
+  display: flex;
+ padding-bottom: 24px ;
+ gap: 12px;
+}
+.logo-user img{
+  margin-top: 10px;
+  
+}
+/* Css của home bên phải */
+.body-right {
+  padding: 32px;
+  width: 100%;
+}
+.header-title #header-title-text{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #932F08;
+}
+
+
+.title-body {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+.header-title {
+  display: flex;
+  gap: 12px;
+}
+.title {
+  width: fit-content;
+  height: 40px;
+  padding-top: 16px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+.excel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 2px solid #c7c2c2;
+}
+.select {
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.btn-add-account{
+    width: fit-content;
+height: 40px;
+border-radius: 8px;
+width: 164;
+height: 40;
+gap: 8px;
+padding: 10px 16px;
+border-width: 1px;
+background-color: #B54115;
+color: #ffff;
+}
+/* css phần thông tin khóa học */
+#container-course-details{
+    margin-top:24px ;
+    width: 100%;
+    height: fit-content;
+    padding: 16px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: solid#E4E7EC;
+}
+#container-course-details p{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+}
+#container-course-details #table-course{
+    text-align: left;
+}
+#container-course-details img{
+width: 528px;
+height: 176px;
+}
+#container-course-details #table-course tr{
+height: 20px;
+}
+#container-course-details #table-course tr th{
+  color: #667085;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+#container-course-details #table-course tr td ,li {
+  color: #344054;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  list-style: none;
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modal add course</title>
+    <link rel="stylesheet" href="../CSS/modal_add_course.css" />
+    <link rel="stylesheet" href="../CSS/elearning.css" />
+    <link rel="stylesheet" href="../CSS/base.css" />
+    <link rel="stylesheet" href="../CSS/reset.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="body-container">
+        <div class="body-left">
+          <div class="nav">
+            <div class="body-top-nav">
+              <div>
+                <img
+                  class="logo-university"
+                  src="../assets/icon/Logo phenikaa.png"
+                  alt=""
+                />
+              </div>
+              <div class="body-search">
+                <img
+                  class="icon-search"
+                  src="../assets/icon/search.png"
+                  alt=""
+                />
+                <input placeholder="Tìm kiếm" class="iput-search" type="text" />
+              </div>
+              <div class="list-link">
+                <div class="link">
+                  <ion-icon class="icon" name="people-outline"></ion-icon>
+                  <a>Tài khoản</a>
+                </div>
+                <div class="link">
+                  <img class="icon" src="../assets/icon/hand-icon.png" alt="" />
+                  <a>Đối tác</a>
+                </div>
+                <div class="link">
+                  <img
+                    class="icon"
+                    src="../assets/icon/Video-elearning.png"
+                    alt=""
+                  />
+                  <a>Khóa học (E-learning)</a>
+                </div>
+                <div class="link">
+                  <img
+                    class="icon"
+                    src="../assets/icon/class-icon.png"
+                    alt=""
+                  />
+                  <a>Lớp học offline</a>
+                </div>
+                <div class="link">
+                  <img class="icon" src="../assets/icon/Exam-icon.png" alt="" />
+                  <a>Kỳ thi</a>
+                </div>
+                <div class="link">
+                  <img
+                    class="icon"
+                    src="../assets/icon/certificate-icon.png"
+                    alt=""
+                  />
+                  <a>Chứng chỉ</a>
+                </div>
+                <div class="link">
+                  <img
+                    class="icon"
+                    src="../assets/icon/report-icon.png"
+                    alt=""
+                  />
+                  <a>Báo cáo tài chính</a>
+                </div>
+                <div class="link">
+                  <img
+                    class="icon"
+                    src="../assets/icon/Buildings-icon.png"
+                    alt=""
+                  />
+                  <a>Cơ sở hạ tầng</a>
+                </div>
+                <div class="link">
+                  <img class="icon" src="../assets/icon/news-icon.png" alt="" />
+                  <a>Tin tức, thông báo</a>
+                </div>
+                <div class="link">
+                  <img
+                    class="icon"
+                    src="../assets/icon/setting-icon.png"
+                    alt=""
+                  />
+                  <a>Cấu hình</a>
+                </div>
+              </div>
+            </div>
+            <div class="body-bottom-nav">
+              <div class="logo-user">
+                <img src="../assets/images/Avatar.png" alt="" />
+              </div>
+              <div class="body-name-email">
+                <div class="name-out">
+                  <p class="name-userLogin">Phạm Tiến Hưng</p>
+                  <img
+                    class="log-out"
+                    src="../assets/icon/Icon-out.png"
+                    alt=""
+                  />
+                </div>
+                <div class="email-user-login">hungpham772006@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="body-right">
+          <header class="header-content">
+            <!-- Đầu của Content -->
+            <div class="header-title">
+              <img src="../assets/icon/home-icon.png" alt="" />
+              <span id="header-title-text">Danh sách khóa học</span>
+            </div>
+            <!-- Thêm khóa học -->
+            <div class="title-body">
+              <div class="title">Danh sách khóa học</div>
+              <div style="display: flex; gap: 12px">
+                <div class="excel">
+                  <div class="logo-excel">
+                    <img src="../assets/icon/excel-logo.png" alt="" />
+                  </div>
+                  <p>Tải danh sách</p>
+                </div>
+                <select class="select" name="" id="">
+                  <option value="">Nhập từ file</option>
+                  <option value=""></option>
+                </select>
+                <button class="btn-add-account">+ Thêm khóa học</button>
+              </div>
+            </div>
+          </header>
+          <!-- Số lượng khóa học -->
+          <div class="list-course">
+            <div class="box-list">
+              <p>Tất cả</p>
+              <p class="number-course">130</p>
+            </div>
+            <div class="box-list">
+              <p>CNTT</p>
+              <p class="number-course">32</p>
+            </div>
+            <div class="box-list">
+              <p>Marketing</p>
+              <p class="number-course">50</p>
+            </div>
+            <div class="box-list">
+              <p>Thiết kế</p>
+              <p class="number-course">16</p>
+            </div>
+          </div>
+          <!-- Tìm kiếm và lọc -->
+          <div class="filter-search">
+            <button class="filter">
+              <img src="../assets/icon/Filters-icon.png" alt="" />
+              <p>Bộ lọc</p>
+            </button>
+            <div class="search-user">
+              <img class="icon-search" src="../assets/icon/search.png" alt="" />
+              <input class="iput-search" placeholder="Tìm kiếm" type="text" />
+            </div>
+          </div>
+          <!-- Bảng dữ liệu  -->
+          <table id="table-list-course">
+            <!--  Thêm dữ liệu vào đây -->
+            <thead>
+              <tr>
+                <th></th>
+                <th>Mã khóa học</th>
+                <th>Tên khóa học</th>
+                <th>Tên đối tác</th>
+                <th>Số bài học</th>
+                <th>Tổng thời lượng</th>
+                <th>Thao tác</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="tick-course"><input type="checkbox" /></td>
+
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td id="tick-course"><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td id="tick-course"><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td id="tick-course"><input type="radio" /></td>
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td id="tick-course"><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td id="tick-course"><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td id="tick-course"><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td>Nhập môn lập trình C++</td>
+                <td>FPT Software</td>
+                <td>24</td>
+                <td>2</td>
+                <td>
+                  <button id="btn-delete-course">
+                    <img src="../assets/icon/dustbin.png" alt="" />
+                  </button>
+                  <button id="btn-edit-course">
+                    <img src="../assets/icon/penedit.png" alt="" />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- phân trang -->
+
+          <div id="pagination">
+            <button id="btn-prev">Trang trước</button>
+            <div style="color: #344054">Trang 1 trong 152</div>
+            <button id="btn-next">Trang sau</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal thêm khóa học -->
+    <div style="display: block;" class="modal-admin-course">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="header">Thêm khóa học</p>
+          <img class="close-btn" src="../assets/icon/close.png" alt="" />
+        </div>
+        <div class="modal-body">
+          <div class="information">
+            <p>Thông tin chung</p>
+            <p class="under-text">Cập nhật thông tin cơ bản về khóa học</p>
+          </div>
+          <div>
+            <!-- from thông tin khóa học -->
+            <form class="from-add-course">
+              <div id="upload-banner-course">
+                <img src="../assets/icon/icloud.png" alt="" /><br />
+                <button id="Click-to-upload-banner">
+                  Click to upload banner</button
+                ><span id="drap-drop">or drag and drop </span><br />
+                <span id="svg-png">SVG, PNG, JPG or GIF (max. 1200x600px)</span>
+              </div>
+
+              <div>
+                <label for="course-name">Tên khóa học</label><br />
+                <input
+                  id="course-name"
+                  type="text"
+                  placeholder="Nhập tên khóa học"
+                />
+              </div>
+
+              <div id="study-object-and-Estimated-time">
+                <div>
+                  <label for="study-object">Đối tượng học</label><br />
+                  <select name="study-object" id="study-object">
+                    <option value="">Mới bắt đầu</option>
+                    <option value="">Đã có kinh nghiệm</option>
+                    <option value="">Đang đi làm</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="Estimated-time">Ước tính thời gian</label><br />
+                  <input id="Estimated-time" type="text" />
+                </div>
+              </div>
+
+              <div id="Industry-and-center">
+                <div>
+                  <label for="Industry">Ngành nghề</label><br />
+                  <select name="Industry" id="Industry">
+                    <option value="">Thiết kế</option>
+                    <option value="">Maketing</option>
+                    <option value="">CNTT</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="center">trung tâm</label><br />
+                  <select name="center" id="center">
+                    <option value="">Rekkei Academy</option>
+                    <option value="">FPT</option>
+                    <option value=""></option> 
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                 <label for="textarea">Mô tả khóa học</label><br>
+                <textarea placeholder="Mô tả khóa học của bạn" name="" id="textarea"></textarea> 
+              </div>
+              
+              <div id="box-skill">
+                <label for="content-skill">Các kĩ năng cần học</label>
+                <input id="content-skill" placeholder="HTML cơ bản" type="text">
+                <button id="add-skill-course">+ Thêm kĩ năng</button>
+              </div>
+
+              <div>
+                <label for="price-course">Mức giá</label><br>
+                <input id="price-course" placeholder="Nhập mức tiền khóa học" type="text">
+              </div>
+              <div class="diven"></div>
+              <div class="modal-footer">
+                <button class="cancel-btn">Hủy</button>
+                <button class="submit-btn">Tạo khóa học</button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
