@@ -268,11 +268,6 @@
   flex: 1;
 }
 
-.body .block-left img {
-  width: 24px;
-  height: 24px;
-}
-
 .body .block-right {
   flex: 30;
 }
@@ -319,38 +314,275 @@
   margin-bottom: 24px;
   resize: vertical;
 }
-#select-metho-teaching #metho-teaching{
-width: 100%;
-height: 44px;
-padding: 10px 14px;
-border: 1px solid#D0D5DD;
-border-radius: 8px;
+#select-metho-teaching #metho-teaching {
+  width: 100%;
+  height: 44px;
+  padding: 10px 14px;
+  border: 1px solid#D0D5DD;
+  border-radius: 8px;
 }
-#select-metho-teaching label{
-margin-top: 6px;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-color: #344054;
+#select-metho-teaching label {
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
 }
-#upload-video-leson{
-  margin:16px 0px;
+#upload-home-work {
+  margin-top: 16px;
+  background-color: #f2f4f7;
+}
+#upload-home-work #accordion {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+}
+#upload-home-work #accordion #accordion-textLeft {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344054;
+}
+#upload-home-work #accordion #accordion-textRight {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+#List-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: fit-content;
+  padding: 24px 40px 24px 60px;
+  background-color: #f9fafb;
+}
+.container-list-articles {
+  display: flex;
+  gap: 8px;
+}
+.block-left-list {
+  margin-top: 16px;
+  height: 100%;
+}
+#title-articles {
+  background-color: #e4e7ec;
+  padding: 16px 8px 8px 16px;
+  border-radius: 8px;
+  height: 52px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#content-list-articles {
+  padding: 10px 14px;
+  height: fit-content;
+  background-color: #ffffff;
+  margin-left: 16px;
+  border: 1px solid#D0D5DD;
+  border-radius: 8px;
+  color: #101828;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+#add-articles button {
+  width: 137px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background-color: #ffffff;
+}
+#container-Upload-file-lesson {
+  margin-top: 24px;
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#Upload-file-lesson {
+  background-color: #f2f4f7;
+  height: 150px;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+}
+
+#file-lesson {
+  background-color: #e4e7ec;
+  width: calc(100% / 4 - 16px);
+  height: 118px;
+  padding: 8px 16px;
+}
+#icon-file {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+#icon-file button {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  border: transparent;
+}
+#name-pdf {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #281021;
+
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#size-pdf {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667085;
+}
+#file-lesson:nth-child(4) {
+  border: 1px;
+  border-style: dashed;
+  text-align: center;
+}
+#file-lesson:nth-child(4) #text-1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #932f08;
+}
+
+#file-lesson:nth-child(4) #text-2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667085;
+}
+#container-quizz {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#setting-quizz {
+  display: flex;
+  gap: 16px;
+}
+#setting-quizz div {
+  flex: 1;
+  width: 50%;
+}
+
+#setting-quizz label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+#setting-quizz input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(102, 112, 133, 1);
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid rgba(208, 213, 221, 1);
+  padding: 10px 14px;
+}
+
+#content-list-Answer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 14px;
+  height: fit-content;
+  background-color: #e4e7ec;
+  margin-left: 64px;
+  border: 1px solid#D0D5DD;
+  border-radius: 8px;
+  color: #101828;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#answer-button-container {
+  display: flex;
+  gap: 8px;
+}
+
+#answer-button-container button {
+  border: transparent;
+  background-color: transparent;
+  width: 166px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+
+#container-Answer {
+  height: 44px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+#Answer {
+  width: 764px;
+  background-color: #fef3f2;
+  height: 44px;
+  border: 1px solid#D0D5DD;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 10px 14px;
+  line-height: 24px;
+}
+
+#Answer-correct {
+  width: 764px;
+  background-color: #ecfdf3;
+  height: 44px;
+  border: 1px solid#D0D5DD;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 10px 14px;
+  line-height: 24px;
+}
+
+#container-Answer button {
+  border: transparent;
+  background-color: transparent;
+}
+
+#upload-video-leson {
+  margin: 16px 0px;
   border: 1px solid#E4E7EC;
-  border-radius:8px ;
+  border-radius: 8px;
   display: flex;
   gap: 16px;
   padding: 16px;
 }
-#btn-edit-upload-video{
+#btn-edit-upload-video {
   margin-top: 24px;
   display: flex;
   gap: 16px;
 }
-#btn-edit-upload-video button{
+#btn-edit-upload-video button {
   width: fit-content;
   padding: 8px 14px;
   height: 36px;
 }
+
 .body .btn-delete {
   background-color: #fef3f2;
   padding: 8px 14px;

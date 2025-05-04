@@ -1,0 +1,170 @@
+#header {
+  height: 80px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #101828;
+}
+
+#header button {
+  width: 72px;
+  height: 40px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#container {
+  display: flex;
+}
+
+#container-left {
+  width: 70%;
+  height: 100%;
+}
+
+#container-right {
+  width: 30%;
+  height: 100vh;
+}
+#header-container-right {
+  background-color: #d0d5dd;
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  padding: 12px 24px;
+}
+#header-container-right button {
+  background-color: transparent;
+  border: transparent;
+  width: fit-content;
+  height: fit-content;
+}
+#header-container-right button img {
+  width: 24px;
+  height: 24px;
+}
+#header-container-right p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #344054;
+}
+#Course-content {
+  border: 1px solid#E4E7EC;
+
+  background-color: #f9fafb;
+  padding: 12px 24px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#name-course {
+  display: flex;
+  justify-content: space-between;
+}
+
+#name-course div {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#back-groud {
+  width: 100%;
+  height: 612px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar-container-left {
+  padding: 16px 80px;
+}
+#content-navbar-container-left {
+  display: flex;
+  gap: 16px;
+}
+#content-navbar-container-left #content {
+  color: #667085;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+#content-navbar-container-left #content-active {
+  background-color: #fff1eb;
+  color: #932f08;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+#body-container-left{
+   height: 298px; 
+   padding: 24px 80px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+#body-container-left #name-course{
+font-weight:800 ;
+font-size:36px ;
+line-height: 44px;
+color: #101828;
+}
+
+#body-container-left #text{
+font-weight:400 ;
+font-size:20px ;
+line-height: 30px;
+color: #667085;
+}
+
+#body-container-left #Evaluate{
+display: flex;
+gap: 56px;
+}
+
+#body-container-left #Evaluate #text1-star{
+color: #FDB022;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+}
+#body-container-left #Evaluate #text1{
+color: #B54115;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+}
+#body-container-left #Evaluate #text2{
+    color: #475467;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+#btn-sign-course{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width:173px ;
+    height: 60px;
+    background-color: #B54115;
+    border-radius: 8px;
+    border: 1px solid #B54115;
+}
+
+
+
+
+
