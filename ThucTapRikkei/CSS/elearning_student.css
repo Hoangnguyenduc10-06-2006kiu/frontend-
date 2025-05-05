@@ -223,6 +223,30 @@
 #tick-course {
   text-align: center;
 }
+#status-doing{
+    width: fit-content;
+    height: fit-content;
+    background-color: #EFF8FF;
+    padding: 2px 8px;
+    border-radius: 16px;
+    color: #175CD3;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#status-end{
+    width: fit-content;
+    height: fit-content;
+    background-color: #EFF8FF;
+    padding: 2px 8px;
+    border-radius: 16px;
+    color: #344054;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
 /* css phân trang */
 #pagination {
   display: flex;

@@ -34,13 +34,15 @@
   height: 100vh;
 }
 #header-container-right {
-  background-color: #d0d5dd;
+border: 1px solid#d0d5dd;;
   display: flex;
   justify-content: space-between;
   height: 52px;
   padding: 12px 24px;
 }
 #header-container-right button {
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
   background-color: transparent;
   border: transparent;
   width: fit-content;
@@ -106,65 +108,88 @@
   line-height: 20px;
 }
 
-
-#body-container-left{
-   height: 298px; 
-   padding: 24px 80px;
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
+#body-container-left {
+  height: 298px;
+  padding: 24px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#body-container-left #name-course{
-font-weight:800 ;
-font-size:36px ;
-line-height: 44px;
-color: #101828;
+#body-container-left #name-course {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
 }
 
-#body-container-left #text{
-font-weight:400 ;
-font-size:20px ;
-line-height: 30px;
-color: #667085;
+#body-container-left #text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
 }
 
-#body-container-left #Evaluate{
-display: flex;
-gap: 56px;
+#body-container-left #Evaluate {
+  display: flex;
+  gap: 56px;
 }
 
-#body-container-left #Evaluate #text1-star{
-color: #FDB022;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
+#body-container-left #Evaluate #text1-star {
+  color: #fdb022;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
-#body-container-left #Evaluate #text1{
-color: #B54115;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
+#body-container-left #Evaluate #text1 {
+  color: #b54115;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
-#body-container-left #Evaluate #text2{
-    color: #475467;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+#body-container-left #Evaluate #text2 {
+  color: #475467;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
-#btn-sign-course{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
-    width:173px ;
-    height: 60px;
-    background-color: #B54115;
-    border-radius: 8px;
-    border: 1px solid #B54115;
+#btn-sign-course {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 173px;
+  height: 60px;
+  background-color: #b54115;
+  border-radius: 8px;
+  border: 1px solid #b54115;
+}
+#footer {
+  height: fit-content;
+  padding: 16px 80px 24px 80px;
 }
 
+#content-footer {
+  border-radius:12px ;
+  border: 1px solid #D0D5DD;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+}
 
+#title-footer {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+#text-footer{
+  display: flex;
+  gap: 32px;
+}
 
-
-
+ #content-footer-text{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}  

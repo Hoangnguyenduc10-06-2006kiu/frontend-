@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>modal add course</title>
     <link rel="stylesheet" href="../CSS/modal_add_course.css" />
-    <link rel="stylesheet" href="../CSS/elearning.css" />
+    <link rel="stylesheet" href="../CSS/elearning_student.css" />
     <link rel="stylesheet" href="../CSS/base.css" />
     <link rel="stylesheet" href="../CSS/reset.css" />
   </head>
@@ -132,32 +132,21 @@
                   </div>
                   <p>Tải danh sách</p>
                 </div>
-                <select class="select" name="" id="">
-                  <option value="">Nhập từ file</option>
-                  <option value=""></option>
-                </select>
-                <button class="btn-add-account">+ Thêm khóa học</button>
+                
               </div>
             </div>
           </header>
           <!-- Số lượng khóa học -->
           <div class="list-course">
             <div class="box-list active">
-              <p>Tất cả</p>
+              <p>Khóa học của tôi </p>
               <p class="number-course">130</p>
             </div>
             <div class="box-list">
-              <p>CNTT</p>
+              <p>Tất cả khóa học</p>
               <p class="number-course">32</p>
             </div>
-            <div class="box-list">
-              <p>Marketing</p>
-              <p class="number-course">50</p>
-            </div>
-            <div class="box-list">
-              <p>Thiết kế</p>
-              <p class="number-course">16</p>
-            </div>
+        
           </div>
           <!-- Tìm kiếm và lọc -->
           <div class="filter-search">
@@ -179,9 +168,9 @@
                 <th>Mã khóa học</th>
                 <th>Tên khóa học</th>
                 <th>Tên đối tác</th>
+                <th>Trạng thái</th>
                 <th>Số bài học</th>
                 <th>Tổng thời lượng</th>
-                <th>Thao tác</th>
               </tr>
             </thead>
             <tbody>
@@ -191,112 +180,70 @@
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td><p id="status-doing">Đang diễn ra</p></td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
               <tr>
                 <td id="tick-course"><input type="checkbox" /></td>
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td>Đang diễn ra</td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
               <tr>
                 <td id="tick-course"><input type="checkbox" /></td>
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td>Đang diễn ra</td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
               <tr>
                 <td id="tick-course"><input type="radio" /></td>
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td>Đang diễn ra</td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
               <tr>
                 <td id="tick-course"><input type="checkbox" /></td>
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td>Kết thúc</td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
               <tr>
                 <td id="tick-course"><input type="checkbox" /></td>
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td>Kết thúc</td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
               <tr>
                 <td id="tick-course"><input type="checkbox" /></td>
                 <td>TK002341</td>
                 <td>Nhập môn lập trình C++</td>
                 <td>FPT Software</td>
+                <td><p id="status-end">Kết thúc</p></td>
                 <td>24</td>
                 <td>2</td>
-                <td>
-                  <button id="btn-delete-course">
-                    <img src="../assets/icon/dustbin.png" alt="" />
-                  </button>
-                  <button id="btn-edit-course">
-                    <img src="../assets/icon/penedit.png" alt="" />
-                  </button>
-                </td>
+                
               </tr>
             </tbody>
           </table>
